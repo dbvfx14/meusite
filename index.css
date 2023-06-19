@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos globais */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para o cabeçalho */
+#cabecalho {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+#cabecalho h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#menu {
+  margin-top: 20px;
+}
+
+#menu ul {
+  list-style: none;
+}
+
+#menu ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+/* Estilos para a imagem */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Estilos para o título */
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para o parágrafo de informações */
+.link-info {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Estilos para o conteúdo do blog */
+.blog-content {
+  margin-bottom: 20px;
+}
+
+.p1 {
+  margin-bottom: 10px;
+}
+
+.s1 {
+  font-style: italic;
+}
+
+/* Estilos para o rodapé */
+#rodape {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+ }
+  nav#menu {
+    display: block;
+  }
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase; /* converter para maiúsculas */
+    position: absolute; /* para que o menu possa ser colocado no topo, é preciso virar absoluto */
+    top: -3px; /* posicionado ao topo. valor negativo para empurrar além da borda */
+    right: 25px; /* posicionado à direita */
+}
+
+nav#menu li {
+    display: inline-block; /* colocar os itens lado a lado */
+    background-color: #ddd; /* cor de fundo - cinza */
+    padding: 10px; /* aumentar o espaçamento interno da caixa cinza */
+    margin: 2px; /* aumentar o espaçamento externo da caixa cinza */
+    transition: background-color 1.5s; /* tempo da transição do background-color */
+}
+/* hover para efeito do mouse ao passar sobre o li */
+nav#menu li:hover {
+    background-color: #606060; /* cinza escuro */
+}
+
+nav#menu h1 {
+    display: none; /* ocultar a tag h1 que está em nav id menu */
+}
+
+nav#menu a {
+    color: #000; /* preto */
+    text-decoration: none; /* remove o sublinhado do link */
+}
+/* ao passar o mouse sobre o link (tag a) */
+nav#menu a:hover {
+    color: #fff; /* branco */
+    text-decoration: underline; /* sublinhado */
+}
+
+
